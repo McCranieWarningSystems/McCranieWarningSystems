@@ -1,11 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NOT a test</title>
+  <title>Warning Sirens Information Center</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f8f8f8;
+    }
+    header {
+      background: #c0392b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #e74c3c;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 30px;
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #c0392b;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+    form button {
+      background: #e74c3c;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-  <h1>This is NOT a test</h1>
+
+<header>
+  <h1>Warning Sirens Information Center</h1>
+  <p>Stay informed. Stay safe.</p>
+</header>
+
+<nav>
+  <a href="#sirens">Types of Sirens</a>
+  <a href="#alerts">Alert Levels</a>
+  <a href="#news">News & Updates</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+  <section id="sirens">
+    <h2>Types of Warning Sirens</h2>
+    <ul>
+      <li>Tornado Sirens</li>
+      <li>Air Raid Sirens</li>
+      <li>Tsunami Warning Sirens</li>
+      <li>Industrial Hazard Sirens</li>
+    </ul>
+  </section>
+
+  <section id="alerts">
+    <h2>Alert Levels</h2>
+    <p><strong>Level 1:</strong> Test Mode – No Action Required</p>
+    <p><strong>Level 2:</strong> Warning – Stay Alert</p>
+    <p><strong>Level 3:</strong> Emergency – Take Immediate Action</p>
+  </section>
+
+  <section id="news">
+    <h2>Latest Updates</h2>
+    <p>March 30, 2025 – New siren system tests scheduled for April 5 in several counties.</p>
+    <p>March 20, 2025 – Upgrade completed for the coastal tsunami alert network.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Warning Sirens Information Center</p>
+</footer>
+
 </body>
 </html>
